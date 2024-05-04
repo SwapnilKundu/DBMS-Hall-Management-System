@@ -139,5 +139,20 @@ BEGIN
     VALUES (:OLD.room_id, SYSDATE);
 END;
 
+          ------------------------------------------------finally----------------------------------------------------------------
 
+set SERVEROUTPUT on;
+begin
+dbms_output.put_line('Project Name:  ');
+dbms_output.put_line('------------');
+dbms_output.put_line('Hall Management System ');
+dbms_output.put_line('Created by:  ');
+dbms_output.put_line('----------');
+dbms_output.put_line('Swapnil Kundu Argha' );
+dbms_output.put_line('Roll: ');
+dbms_output.put_line('----');
+dbms_output.put_line('2007062 ');
+dbms_output.put_line('--------------------------------------------------');
+end;
+/
 
