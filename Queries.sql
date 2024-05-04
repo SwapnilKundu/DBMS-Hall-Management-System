@@ -104,6 +104,13 @@ having count(*) > 1;
 select * from student
 where major = 'CSE' OR major = 'EEE';
 
+--Find students enrolled in either 'CSE' AND 'EEE' major.
+
+select * from student
+where major = 'CSE' AND major = 'EEE';
+
+
+
 
 --Inner Join ,Display the student ID, full name, and hall name for all students.
 
@@ -129,12 +136,36 @@ NATURAL JOIN hall h;
 
 
 
+--right outer join
+
+select *
+from hall
+RIGHT OUTER JOIN staff on hall.hall_id = staff.hall_id
+
+
+--Full outer join
+select *
+from hall
+FULL OUTER JOIN staff on hall.hall_id = staff.hall_id;
 
 
 
+--self join
+select s1.full_name as student1, s2.full_name AS student2
+from student s1
+join student s2 on s1.major = s2.major
+where s1.student_id <> s2.student_id;
 
 
+--INTERSCT
 
+select student_id, full_name
+from student
+where major = 'CSE'
+intersect
+select student_id, full_name
+from student
+where hall_id = 1;
 
 
 
