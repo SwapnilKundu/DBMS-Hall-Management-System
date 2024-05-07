@@ -3,7 +3,6 @@ A DBMS project by **Swapnil Kundu Argha.**
 
 **Roll** : **2007062** 
 
-![Hall Management System by SWAPNIL KUNDU ARGHA .](https://prod-files-secure.s3.us-west-2.amazonaws.com/f57b8904-dc9e-4288-9fc6-c63117eb3384/4db2596a-cab6-4a3a-8cd0-837663c8b7ea/University-of-California-Davis-Yosemite-Hall-Exterior_1280x650.jpg)
 
 Hall Management System by SWAPNIL KUNDU ARGHA .
 
@@ -100,7 +99,6 @@ Normalization was applied up to the third normal form (3NF) to eliminate data re
 
 ### **Entity-Relationship Diagram (ERD):**
 
-![Screenshot_4-5-2024_104058_mermaid.live.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f57b8904-dc9e-4288-9fc6-c63117eb3384/7010234f-fbfa-48a3-90f8-3abd309cddc4/65325d3b-2067-40af-ada4-a545ca699441.png)
 
 ## **SQL Queries and Functionality**
 
